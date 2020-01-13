@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lenovo.projectdoctor">
+    package="com.example.lenovo.sfar">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -13,39 +13,39 @@
         android:roundIcon="@drawable/docpad"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.lenovo.projectdoctor.MainActivity" />
-        <activity android:name="com.example.lenovo.projectdoctor.SplashActivity">
+        <activity android:name="com.example.lenovo.sfarApp.MainActivity" />
+        <activity android:name="com.example.lenovo.sfarApp.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.lenovo.projectdoctor.DocLogin" />
-        <activity android:name="com.example.lenovo.projectdoctor.ClerkLogin" />
+        <activity android:name="com.example.lenovo.sfarApp.DocLogin" />
+        <activity android:name="com.example.lenovo.sfarApp.ClerkLogin" />
         <activity
-            android:name="com.example.lenovo.projectdoctor.MyProfile"
+            android:name="com.example.lenovo.sfarApp.MyProfile"
             android:label="YOUR PROFILE" />
         <activity
-            android:name="com.example.lenovo.projectdoctor.DoctorActivity"
+            android:name="com.example.lenovo.sfarApp.DoctorActivity"
             android:label="@string/title_activity_doctor"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.lenovo.projectdoctor.clerk.AddClerk" />
-        <activity android:name="com.example.lenovo.projectdoctor.clerk.SearchClerk" />
-        <activity android:name="com.example.lenovo.projectdoctor.clerk.EditClerk" />
-        <activity android:name="com.example.lenovo.projectdoctor.clerk.ViewClerk" />
-        <activity android:name="com.example.lenovo.projectdoctor.ClerkActivity" />
-        <activity android:name="com.example.lenovo.projectdoctor.patient.AddPatient" />
-        <activity android:name="com.example.lenovo.projectdoctor.patient.SearchPatient" />
-        <activity android:name="com.example.lenovo.projectdoctor.patient.EditPatient" />
+        <activity android:name="com.example.lenovo.sfarApp.clerk.AddClerk" />
+        <activity android:name="com.example.lenovo.sfarApp.clerk.SearchClerk" />
+        <activity android:name="com.example.lenovo.sfarApp.clerk.EditClerk" />
+        <activity android:name="com.example.lenovo.sfarApp.clerk.ViewClerk" />
+        <activity android:name="com.example.lenovo.sfarApp.ClerkActivity" />
+        <activity android:name="com.example.lenovo.sfarApp.patient.AddPatient" />
+        <activity android:name="com.example.lenovo.sfarApp.patient.SearchPatient" />
+        <activity android:name="com.example.lenovo.sfarApp.patient.EditPatient" />
         <activity
-            android:name="com.example.lenovo.projectdoctor.patient.ViewPatient"
+            android:name="com.example.lenovo.sfarApp.patient.ViewPatient"
             android:label="Appointments" />
-        <activity android:name="com.example.lenovo.projectdoctor.clerk.DeleteClerk" />
-        <activity android:name="com.example.lenovo.projectdoctor.patient.DeletePatient" />
-        <activity android:name="com.example.lenovo.projectdoctor.viewpager.CustomPager" />
-        <activity android:name="com.example.lenovo.projectdoctor.NotificationActivity"></activity>
-        <activity android:name="com.example.lenovo.projectdoctor.AboutUs"></activity>
+        <activity android:name="com.example.lenovo.sfarApp.clerk.DeleteClerk" />
+        <activity android:name="com.example.lenovo.sfarApp.patient.DeletePatient" />
+        <activity android:name="com.example.lenovo.sfarApp.viewpager.CustomPager" />
+        <activity android:name="com.example.lenovo.sfarApp.NotificationActivity"></activity>
+        <activity android:name="com.example.lenovo.sfarApp.AboutUs"></activity>
     </application>
 
 </manifest>

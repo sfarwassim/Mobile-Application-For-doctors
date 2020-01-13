@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lenovo.projectdoctor.NotificationActivity"
+    tools:context="com.example.lenovo.sfarApp.NotificationActivity"
     android:background="@drawable/ddd">
 
 <TextView
