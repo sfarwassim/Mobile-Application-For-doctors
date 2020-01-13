@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.projectdoctor">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/docpad"
+        android:label="DocPad "
+        android:roundIcon="@drawable/docpad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.lenovo.projectdoctor.MainActivity" />
+        <activity android:name="com.example.lenovo.projectdoctor.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.lenovo.projectdoctor.DocLogin" />
+        <activity android:name="com.example.lenovo.projectdoctor.ClerkLogin" />
+        <activity
+            android:name="com.example.lenovo.projectdoctor.MyProfile"
+            android:label="YOUR PROFILE" />
+        <activity
+            android:name="com.example.lenovo.projectdoctor.DoctorActivity"
+            android:label="@string/title_activity_doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.lenovo.projectdoctor.clerk.AddClerk" />
+        <activity android:name="com.example.lenovo.projectdoctor.clerk.SearchClerk" />
+        <activity android:name="com.example.lenovo.projectdoctor.clerk.EditClerk" />
+        <activity android:name="com.example.lenovo.projectdoctor.clerk.ViewClerk" />
+        <activity android:name="com.example.lenovo.projectdoctor.ClerkActivity" />
+        <activity android:name="com.example.lenovo.projectdoctor.patient.AddPatient" />
+        <activity android:name="com.example.lenovo.projectdoctor.patient.SearchPatient" />
+        <activity android:name="com.example.lenovo.projectdoctor.patient.EditPatient" />
+        <activity
+            android:name="com.example.lenovo.projectdoctor.patient.ViewPatient"
+            android:label="Appointments" />
+        <activity android:name="com.example.lenovo.projectdoctor.clerk.DeleteClerk" />
+        <activity android:name="com.example.lenovo.projectdoctor.patient.DeletePatient" />
+        <activity android:name="com.example.lenovo.projectdoctor.viewpager.CustomPager" />
+        <activity android:name="com.example.lenovo.projectdoctor.NotificationActivity"></activity>
+        <activity android:name="com.example.lenovo.projectdoctor.AboutUs"></activity>
+    </application>
+
+</manifest>
