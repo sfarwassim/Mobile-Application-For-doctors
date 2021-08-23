@@ -1,2 +1,3 @@
 # DoctorApp
-
+It is a Medical Appointment and Tracking Application for Doctor Using
+Android. 
